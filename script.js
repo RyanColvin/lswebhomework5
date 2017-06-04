@@ -1,12 +1,17 @@
 //1. print the number 5 to the console
+console.log(5);
 
 //2. Print your name to the console
+console.log("Ryan Colvin");
 
 //3. Store your age as a variable called "myAge"
+var myAge = 27;
 
 //4. Print to the console how old you will be in 5 years
+console.log("I will be 32 in 5 years");
 
 //5. Store your favorite food as a variable called "myFavoriteFood"
+
 
 //6. Publish your favorite food to `index.html` using `document.write()`
 
