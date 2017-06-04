@@ -11,21 +11,36 @@ var myAge = 27;
 console.log("I will be 32 in 5 years");
 
 //5. Store your favorite food as a variable called "myFavoriteFood"
-
+var myFavoriteFood = "pizza";
 
 //6. Publish your favorite food to `index.html` using `document.write()`
+document.write("pizza");
 
 //7. Print the remainder of 14 / 3 to the console
+console.log(14 % 3);
 
 //8. Print the remainder of 829 / 13 to the console
+console.log(829 % 13);
 
 //9. Create a for loop that counts from 0 to 130 by 3s
+for (i = 0; i <= 130; i += 3) {
+    console.log(i);
+}
 
 //10. Create a for loop that counts from 3 to 17 by 2s
+for (i = 3; i <= 17; i += 2) {
+    console.log(i);
+}
 
 //11. Create a for loop that counts from 100 to 3 by -1
+for (i = 100; i <= 3; i--) {
+    console.log(i);
+}
 
 //12. Create a for loop that counts from 1 to 100 by 1s
+for (i = 1; i <= 100; i++) {
+    console.log(i);
+}
 
 //13. Create a for loop that counts from 1 to 100, but instead of printing `i` prints `fizz` if the number is divisible by 5
 
