@@ -23,19 +23,20 @@ console.log(14 % 3);
 console.log(829 % 13);
 
 //9. Create a for loop that counts from 0 to 130 by 3s
-for (i = 0; i <= 130; i += 3) {
+for (i = 0; i < 131; i += 3) {
     console.log(i);
 }
 
 //10. Create a for loop that counts from 3 to 17 by 2s
-for (i = 3; i <= 17; i += 2) {
+for (i = 3; i < 18; i += 2) {
     console.log(i);
 }
 
 //11. Create a for loop that counts from 100 to 3 by -1
-for (i = 100; i <= 3; i--) {
+for (i = 100; i > 2; i--) {
     console.log(i);
 }
+
 
 //12. Create a for loop that counts from 1 to 100 by 1s
 for (i = 1; i <= 100; i++) {
@@ -43,10 +44,31 @@ for (i = 1; i <= 100; i++) {
 }
 
 //13. Create a for loop that counts from 1 to 100, but instead of printing `i` prints `fizz` if the number is divisible by 5
+for (i = 1; i < 101; i++) {
+    if (i % 5 == 0) {
+        console.log("fizz");
+    } else {
+        console.log(i);
+    }
+}
 
 //14. Create a for loop that counts from 1 to 100, but instead of printing `i` prints `buzz` if the number is divisible by 3
+for (i = 1; i < 101; i++) {
+    if (i % 3 == 0) {
+        console.log("buzz");
+    } else {
+        console.log(i);
+    }
+}
 
 //15. Create a for loop that counts from 1 to 100, but instead of printing `i` prints `fizzbuzz` if the number is divisible by 15
+for (i = 1; i < 101; i++) {
+    if (i % 15 == 0) {
+        console.log("fizzbuzz");
+    } else {
+        console.log(i);
+    }
+}
 
 //EXTRA CREDIT: Fizzbuzz
 
@@ -59,3 +81,14 @@ The "Fizz-Buzz test" is an interview question designed to help filter out the 99
 Hint: Use your last three loops and if/then/else statements. You can learn about those here https://www.w3schools.com/js/js_if_else.asp
 
 */
+for (i = 1; i < 101; i++) {
+    if (i % 3 === 0 && i % 5 ===0) {
+        console.log("fizzbuzz");
+    } else if (i % 5 === 0) {
+        console.log("buzz");
+    } else if (i % 3 === 0) {
+        console.log("fizz");
+    } else {
+        console.log(i);
+    }
+}
